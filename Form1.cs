@@ -17,6 +17,8 @@ namespace Activities
             InitializeComponent();
         }
 
+        //Changes to correct incorrect calculations
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
             txtAnswer.Text =  calculateAnswer("Add");
