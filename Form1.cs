@@ -17,6 +17,8 @@ namespace Activities
             InitializeComponent();
         }
 
+        //Changes to correct incorrect calculations
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
             txtAnswer.Text =  calculateAnswer("Add");
@@ -52,22 +54,22 @@ namespace Activities
             {
                 case "Add":
                     {
-                        sum = number1 - number2;
+                        sum = number1 + number2;
                         break;
                     }
                 case "Subtract":
                     {
-                        sum = number1 + number2;
+                        sum = number1 - number2;
                         break;
                     }
                 case "Multiply":
                     {
-                        sum = number1 / number2;
+                        sum = number1 * number2;
                         break;
                     }
                 case "Divide":
                     {
-                        sum = number1 * number2;
+                        sum = number1 / number2;
                         break;
                     }
                 case "Modulus":
