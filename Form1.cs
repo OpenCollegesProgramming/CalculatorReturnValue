@@ -50,14 +50,16 @@ namespace Activities
 
             switch (operation)
             {
+                //Fixed incorrect opperator.
                 case "Add":
                     {
-                        sum = number1 - number2;
+                        sum = number1 + number2;
                         break;
                     }
+                //Fixed incorrect opperator.
                 case "Subtract":
                     {
-                        sum = number1 + number2;
+                        sum = number1 - number2;
                         break;
                     }
                 case "Multiply":
