@@ -17,3 +17,14 @@ C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\bin\
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Activities.Properties.Resources.resources
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\rkons\Desktop\Open Colleges\Module 13\GitHub\CalculatorReturnValueGitHub\bin\Debug\Activities.exe.config
+C:\Users\rkons\Desktop\Open Colleges\Module 13\GitHub\CalculatorReturnValueGitHub\bin\Debug\Activities.exe
+C:\Users\rkons\Desktop\Open Colleges\Module 13\GitHub\CalculatorReturnValueGitHub\bin\Debug\Activities.pdb
+C:\Users\rkons\Desktop\Open Colleges\Module 13\GitHub\CalculatorReturnValueGitHub\bin\Debug\itextsharp.xml
+C:\Users\rkons\Desktop\Open Colleges\Module 13\GitHub\CalculatorReturnValueGitHub\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\rkons\Desktop\Open Colleges\Module 13\GitHub\CalculatorReturnValueGitHub\obj\Debug\Activities.Properties.Resources.resources
+C:\Users\rkons\Desktop\Open Colleges\Module 13\GitHub\CalculatorReturnValueGitHub\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\rkons\Desktop\Open Colleges\Module 13\GitHub\CalculatorReturnValueGitHub\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\rkons\Desktop\Open Colleges\Module 13\GitHub\CalculatorReturnValueGitHub\obj\Debug\Calculator.csproj.CopyComplete
+C:\Users\rkons\Desktop\Open Colleges\Module 13\GitHub\CalculatorReturnValueGitHub\obj\Debug\Activities.exe
+C:\Users\rkons\Desktop\Open Colleges\Module 13\GitHub\CalculatorReturnValueGitHub\obj\Debug\Activities.pdb

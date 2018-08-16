@@ -52,22 +52,26 @@ namespace Activities
             {
                 case "Add":
                     {
-                        sum = number1 - number2;
+                        //add operator updated
+                        sum = number1 + number2;
                         break;
                     }
                 case "Subtract":
                     {
-                        sum = number1 + number2;
+                        //subtract operator updated
+                        sum = number1 - number2;
                         break;
                     }
                 case "Multiply":
                     {
-                        sum = number1 / number2;
+                        //multiply operator updated
+                        sum = number1 * number2;
                         break;
                     }
                 case "Divide":
                     {
-                        sum = number1 * number2;
+                        //divide operator updated
+                        sum = number1 / number2;
                         break;
                     }
                 case "Modulus":
