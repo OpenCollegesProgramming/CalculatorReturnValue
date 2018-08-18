@@ -44,30 +44,46 @@ namespace Activities
 
         public string calculateAnswer(string operation)
         {
-            int number1 = int.Parse(txtNumber1.Text);
-            int number2 = int.Parse(txtNumber2.Text);
+            int number1;
+            int number2;
+            try
+            {
+                number1 = int.Parse(txtNumber1.Text);
+            } catch (FormatException e)
+            {
+                return "Invalid Input: " + txtNumber1.Text;
+            }
+            try
+            {
+                number2 = int.Parse(txtNumber2.Text);
+            }
+            catch (FormatException e)
+            {
+                return "Invalid Input: " + txtNumber2.Text;
+            }
+
             int sum = 0;
 
             switch (operation)
             {
                 case "Add":
                     {
-                        sum = number1 - number2;
+                        sum = number1 + number2;
                         break;
                     }
                 case "Subtract":
                     {
-                        sum = number1 + number2;
+                        sum = number1 - number2;
                         break;
                     }
                 case "Multiply":
                     {
-                        sum = number1 / number2;
+                        sum = number1 * number2;
                         break;
                     }
                 case "Divide":
                     {
-                        sum = number1 * number2;
+                        sum = number1 / number2;
                         break;
                     }
                 case "Modulus":
