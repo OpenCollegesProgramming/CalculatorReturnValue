@@ -44,12 +44,14 @@ namespace Activities
 
         public string calculateAnswer(string operation)
         {
+            // Change datatypes to double to account for the limitations of integer division
             double number1 = double.Parse(txtNumber1.Text);
             double number2 = double.Parse(txtNumber2.Text);
             double result = 0;
 
             switch (operation)
             {
+                // Fixed incorrect operations
                 case "Add":
                     {
                         result = number1 + number2;
@@ -67,6 +69,7 @@ namespace Activities
                     }
                 case "Divide":
                     {
+                        // Added ability to be able to deal with division by 0
                         if(number2 == 0)
                         {
                             return "Unable to divide by zero!";
