@@ -44,40 +44,51 @@ namespace Activities
 
         public string calculateAnswer(string operation)
         {
-            int number1 = int.Parse(txtNumber1.Text);
-            int number2 = int.Parse(txtNumber2.Text);
-            int sum = 0;
+            // Change datatypes to double to account for the limitations of integer division
+            double number1 = double.Parse(txtNumber1.Text);
+            double number2 = double.Parse(txtNumber2.Text);
+            double result = 0;
 
             switch (operation)
             {
+                // Fixed incorrect operations
+                // Such as the swapping of addition and subtraction
                 case "Add":
                     {
-                        sum = number1 - number2;
+                        result = number1 + number2;
                         break;
                     }
                 case "Subtract":
                     {
-                        sum = number1 + number2;
+                        result = number1 - number2;
                         break;
                     }
                 case "Multiply":
                     {
-                        sum = number1 / number2;
+                        result = number1 * number2;
                         break;
                     }
                 case "Divide":
                     {
-                        sum = number1 * number2;
+                        // Added ability to be able to deal with division by 0
+                        if(number2 == 0)
+                        {
+                            return "Unable to divide by zero!";
+                        }
+                        else
+                        {
+                            result = number1 / number2;
+                        }
                         break;
                     }
                 case "Modulus":
                     {
-                        sum = number1 % number2;
+                        result = number1 % number2;
                         break;
                     }
             }
 
-            return sum.ToString();
+            return result.ToString();
         }
     }
 }
