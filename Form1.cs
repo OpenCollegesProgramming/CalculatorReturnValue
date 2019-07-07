@@ -52,6 +52,7 @@ namespace Activities
             switch (operation)
             {
                 // Fixed incorrect operations
+                // Such as the swapping of addition and subtraction
                 case "Add":
                     {
                         result = number1 + number2;
