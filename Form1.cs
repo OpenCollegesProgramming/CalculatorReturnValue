@@ -28,8 +28,16 @@ namespace Activities
         }
 
         private void btnModulus_Click(object sender, EventArgs e)
-        {
-            txtAnswer.Text = calculateAnswer("Modulus");
+
+        {//Do not allow divide by zero.
+            if (int.Parse(txtNumber2.Text) == 0)
+            {
+                MessageBox.Show("You have entered zero. Please enter a valid number.");
+            }
+            else
+            {
+                txtAnswer.Text = calculateAnswer("Modulus");
+            }
         }
 
         private void btnSubtract_Click(object sender, EventArgs e)
@@ -38,8 +46,15 @@ namespace Activities
         }
 
         private void btnDivide_Click(object sender, EventArgs e)
-        {
-            txtAnswer.Text = calculateAnswer("Divide");
+        {//Do not allow divide by zero.
+            if (int.Parse(txtNumber2.Text) == 0)
+            {
+                MessageBox.Show("You have entered zero. Please enter a valid number.");
+            }
+            else
+            {
+                txtAnswer.Text = calculateAnswer("Dvide");
+            }
         }
 
         public string calculateAnswer(string operation)
@@ -52,22 +67,22 @@ namespace Activities
             {
                 case "Add":
                     {
-                        sum = number1 - number2;
+                        sum = number1 + number2;
                         break;
                     }
                 case "Subtract":
                     {
-                        sum = number1 + number2;
+                        sum = number1 - number2;
                         break;
                     }
                 case "Multiply":
                     {
-                        sum = number1 / number2;
+                        sum = number1 * number2;
                         break;
                     }
                 case "Divide":
                     {
-                        sum = number1 * number2;
+                        sum = number1 / number2;
                         break;
                     }
                 case "Modulus":
