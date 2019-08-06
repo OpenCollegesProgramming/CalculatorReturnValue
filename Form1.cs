@@ -48,6 +48,7 @@ namespace Activities
             int number2 = int.Parse(txtNumber2.Text);
             int sum = 0;
 
+            //changes applied to code
             switch (operation)
             {
                 case "Add":
