@@ -48,26 +48,27 @@ namespace Activities
             int number2 = int.Parse(txtNumber2.Text);
             int sum = 0;
 
+            //changes applied to code
             switch (operation)
             {
                 case "Add":
                     {
-                        sum = number1 - number2;
+                        sum = number1 + number2;
                         break;
                     }
                 case "Subtract":
                     {
-                        sum = number1 + number2;
+                        sum = number1 - number2;
                         break;
                     }
                 case "Multiply":
                     {
-                        sum = number1 / number2;
+                        sum = number1 * number2;
                         break;
                     }
                 case "Divide":
                     {
-                        sum = number1 * number2;
+                        sum = number1 / number2;
                         break;
                     }
                 case "Modulus":
