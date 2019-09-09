@@ -45,3 +45,17 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.dll
+*.txt
+*._
+*.xml
+*.sqlite
+*.ide-shm
+*.ide-wal
+*.testlog
+*.ide
+*.lock
+*.manifest
+*.p7s
+*.nupkg
+*.props
