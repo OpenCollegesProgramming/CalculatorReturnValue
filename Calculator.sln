@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorTest.Test", "..\..\UniProjects\CalculatorTest.Test\CalculatorTest.Test.csproj", "{7F84933E-0227-48D2-AE3D-691AA8FA4156}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorTest.Test", "CalculatorTest.Test\CalculatorTest.Test.csproj", "{88172506-9357-46A9-97B1-5B68307B9640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorUtility.Lib", "..\..\UniProjects\CalculatorUtility.Lib\CalculatorUtility.Lib.csproj", "{C921683D-320C-4BCF-94AD-98055A339039}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorUtility.Lib", "CalculatorUtility.Lib\CalculatorUtility.Lib.csproj", "{C921683D-320C-4BCF-94AD-98055A339039}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UI", "..\..\UniProjects\CalculatorReturnValue\Calculator.UI.csproj", "{6541830A-28D8-4290-BD3C-B550E5CE91DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UI", "Calculator.UI.csproj", "{6541830A-28D8-4290-BD3C-B550E5CE91DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7F84933E-0227-48D2-AE3D-691AA8FA4156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F84933E-0227-48D2-AE3D-691AA8FA4156}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F84933E-0227-48D2-AE3D-691AA8FA4156}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F84933E-0227-48D2-AE3D-691AA8FA4156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88172506-9357-46A9-97B1-5B68307B9640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88172506-9357-46A9-97B1-5B68307B9640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88172506-9357-46A9-97B1-5B68307B9640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88172506-9357-46A9-97B1-5B68307B9640}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C921683D-320C-4BCF-94AD-98055A339039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C921683D-320C-4BCF-94AD-98055A339039}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C921683D-320C-4BCF-94AD-98055A339039}.Release|Any CPU.ActiveCfg = Release|Any CPU

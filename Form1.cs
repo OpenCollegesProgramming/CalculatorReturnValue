@@ -44,40 +44,8 @@ namespace Activities
 
         public string calculateAnswer(string operation)
         {
-            int number1 = int.Parse(txtNumber1.Text);
-            int number2 = int.Parse(txtNumber2.Text);
-            int sum = 0;
-
-            switch (operation)
-            {
-                case "Add":
-                    {
-                        sum = number1 - number2;
-                        break;
-                    }
-                case "Subtract":
-                    {
-                        sum = number1 + number2;
-                        break;
-                    }
-                case "Multiply":
-                    {
-                        sum = number1 / number2;
-                        break;
-                    }
-                case "Divide":
-                    {
-                        sum = number1 * number2;
-                        break;
-                    }
-                case "Modulus":
-                    {
-                        sum = number1 % number2;
-                        break;
-                    }
-            }
-
-            return sum.ToString();
+            CalculatorUtility.Lib.Calculator calculator = new CalculatorUtility.Lib.Calculator();
+            return calculator.calculateAnswer(txtNumber1.Text, txtNumber2.Text, operation);
         }
     }
 }
