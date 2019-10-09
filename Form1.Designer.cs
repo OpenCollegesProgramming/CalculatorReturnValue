@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblHeading = new System.Windows.Forms.Label();
             this.lblNumber1 = new System.Windows.Forms.Label();
             this.lblNumber2 = new System.Windows.Forms.Label();
             this.lblAnswer = new System.Windows.Forms.Label();
@@ -40,22 +39,13 @@
             this.btnMultiply = new System.Windows.Forms.Button();
             this.btnDivide = new System.Windows.Forms.Button();
             this.btnModulus = new System.Windows.Forms.Button();
+            this.lblHeading = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // lblHeading
-            // 
-            this.lblHeading.AutoSize = true;
-            this.lblHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeading.Location = new System.Drawing.Point(49, 24);
-            this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(103, 24);
-            this.lblHeading.TabIndex = 0;
-            this.lblHeading.Text = "Calculator";
             // 
             // lblNumber1
             // 
             this.lblNumber1.AutoSize = true;
-            this.lblNumber1.Location = new System.Drawing.Point(52, 69);
+            this.lblNumber1.Location = new System.Drawing.Point(12, 38);
             this.lblNumber1.Name = "lblNumber1";
             this.lblNumber1.Size = new System.Drawing.Size(56, 13);
             this.lblNumber1.TabIndex = 1;
@@ -64,7 +54,7 @@
             // lblNumber2
             // 
             this.lblNumber2.AutoSize = true;
-            this.lblNumber2.Location = new System.Drawing.Point(52, 108);
+            this.lblNumber2.Location = new System.Drawing.Point(12, 71);
             this.lblNumber2.Name = "lblNumber2";
             this.lblNumber2.Size = new System.Drawing.Size(56, 13);
             this.lblNumber2.TabIndex = 2;
@@ -73,7 +63,7 @@
             // lblAnswer
             // 
             this.lblAnswer.AutoSize = true;
-            this.lblAnswer.Location = new System.Drawing.Point(52, 154);
+            this.lblAnswer.Location = new System.Drawing.Point(14, 103);
             this.lblAnswer.Name = "lblAnswer";
             this.lblAnswer.Size = new System.Drawing.Size(45, 13);
             this.lblAnswer.TabIndex = 3;
@@ -81,28 +71,29 @@
             // 
             // txtNumber1
             // 
-            this.txtNumber1.Location = new System.Drawing.Point(125, 69);
+            this.txtNumber1.Location = new System.Drawing.Point(74, 35);
             this.txtNumber1.Name = "txtNumber1";
             this.txtNumber1.Size = new System.Drawing.Size(100, 20);
             this.txtNumber1.TabIndex = 4;
             // 
             // txtNumber2
             // 
-            this.txtNumber2.Location = new System.Drawing.Point(124, 108);
+            this.txtNumber2.Location = new System.Drawing.Point(74, 68);
             this.txtNumber2.Name = "txtNumber2";
             this.txtNumber2.Size = new System.Drawing.Size(100, 20);
             this.txtNumber2.TabIndex = 5;
             // 
             // txtAnswer
             // 
-            this.txtAnswer.Location = new System.Drawing.Point(124, 154);
+            this.txtAnswer.Location = new System.Drawing.Point(74, 101);
             this.txtAnswer.Name = "txtAnswer";
+            this.txtAnswer.ReadOnly = true;
             this.txtAnswer.Size = new System.Drawing.Size(100, 20);
             this.txtAnswer.TabIndex = 6;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(258, 66);
+            this.btnAdd.Location = new System.Drawing.Point(180, 33);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 7;
@@ -112,7 +103,7 @@
             // 
             // btnSubtract
             // 
-            this.btnSubtract.Location = new System.Drawing.Point(364, 69);
+            this.btnSubtract.Location = new System.Drawing.Point(261, 33);
             this.btnSubtract.Name = "btnSubtract";
             this.btnSubtract.Size = new System.Drawing.Size(75, 23);
             this.btnSubtract.TabIndex = 8;
@@ -122,7 +113,7 @@
             // 
             // btnMultiply
             // 
-            this.btnMultiply.Location = new System.Drawing.Point(258, 109);
+            this.btnMultiply.Location = new System.Drawing.Point(180, 68);
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.Size = new System.Drawing.Size(75, 23);
             this.btnMultiply.TabIndex = 9;
@@ -132,7 +123,7 @@
             // 
             // btnDivide
             // 
-            this.btnDivide.Location = new System.Drawing.Point(364, 111);
+            this.btnDivide.Location = new System.Drawing.Point(261, 68);
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.Size = new System.Drawing.Size(75, 23);
             this.btnDivide.TabIndex = 10;
@@ -142,7 +133,7 @@
             // 
             // btnModulus
             // 
-            this.btnModulus.Location = new System.Drawing.Point(258, 155);
+            this.btnModulus.Location = new System.Drawing.Point(180, 101);
             this.btnModulus.Name = "btnModulus";
             this.btnModulus.Size = new System.Drawing.Size(75, 23);
             this.btnModulus.TabIndex = 11;
@@ -150,11 +141,21 @@
             this.btnModulus.UseVisualStyleBackColor = true;
             this.btnModulus.Click += new System.EventHandler(this.btnModulus_Click);
             // 
+            // lblHeading
+            // 
+            this.lblHeading.AutoSize = true;
+            this.lblHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeading.Location = new System.Drawing.Point(8, 4);
+            this.lblHeading.Name = "lblHeading";
+            this.lblHeading.Size = new System.Drawing.Size(103, 24);
+            this.lblHeading.TabIndex = 0;
+            this.lblHeading.Text = "Calculator";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(475, 215);
+            this.ClientSize = new System.Drawing.Size(354, 134);
             this.Controls.Add(this.btnModulus);
             this.Controls.Add(this.btnDivide);
             this.Controls.Add(this.btnMultiply);
@@ -168,15 +169,13 @@
             this.Controls.Add(this.lblNumber1);
             this.Controls.Add(this.lblHeading);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblHeading;
         private System.Windows.Forms.Label lblNumber1;
         private System.Windows.Forms.Label lblNumber2;
         private System.Windows.Forms.Label lblAnswer;
@@ -188,6 +187,7 @@
         private System.Windows.Forms.Button btnMultiply;
         private System.Windows.Forms.Button btnDivide;
         private System.Windows.Forms.Button btnModulus;
+        private System.Windows.Forms.Label lblHeading;
     }
 }
 
