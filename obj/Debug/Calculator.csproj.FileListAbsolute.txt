@@ -17,3 +17,14 @@ C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\bin\
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Activities.Properties.Resources.resources
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\Arian\Desktop\CalculatorReturnValue-master\bin\Debug\Activities.exe.config
+C:\Users\Arian\Desktop\CalculatorReturnValue-master\bin\Debug\Activities.exe
+C:\Users\Arian\Desktop\CalculatorReturnValue-master\bin\Debug\Activities.pdb
+C:\Users\Arian\Desktop\CalculatorReturnValue-master\bin\Debug\itextsharp.xml
+C:\Users\Arian\Desktop\CalculatorReturnValue-master\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Arian\Desktop\CalculatorReturnValue-master\obj\Debug\Activities.Properties.Resources.resources
+C:\Users\Arian\Desktop\CalculatorReturnValue-master\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Arian\Desktop\CalculatorReturnValue-master\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Arian\Desktop\CalculatorReturnValue-master\obj\Debug\Calculator.csproj.CopyComplete
+C:\Users\Arian\Desktop\CalculatorReturnValue-master\obj\Debug\Activities.exe
+C:\Users\Arian\Desktop\CalculatorReturnValue-master\obj\Debug\Activities.pdb
