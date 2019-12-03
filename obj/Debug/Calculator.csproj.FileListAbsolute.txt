@@ -17,3 +17,14 @@ C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\bin\
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Activities.Properties.Resources.resources
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\nathan\Documents\GitHub\CalculatorReturnValue\bin\Debug\Activities.exe.config
+C:\Users\nathan\Documents\GitHub\CalculatorReturnValue\bin\Debug\Activities.exe
+C:\Users\nathan\Documents\GitHub\CalculatorReturnValue\bin\Debug\Activities.pdb
+C:\Users\nathan\Documents\GitHub\CalculatorReturnValue\bin\Debug\itextsharp.xml
+C:\Users\nathan\Documents\GitHub\CalculatorReturnValue\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\nathan\Documents\GitHub\CalculatorReturnValue\obj\Debug\Activities.Properties.Resources.resources
+C:\Users\nathan\Documents\GitHub\CalculatorReturnValue\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\nathan\Documents\GitHub\CalculatorReturnValue\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\nathan\Documents\GitHub\CalculatorReturnValue\obj\Debug\Calculator.csproj.CopyComplete
+C:\Users\nathan\Documents\GitHub\CalculatorReturnValue\obj\Debug\Activities.exe
+C:\Users\nathan\Documents\GitHub\CalculatorReturnValue\obj\Debug\Activities.pdb
