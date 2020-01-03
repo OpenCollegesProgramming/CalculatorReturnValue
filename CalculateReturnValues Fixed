@@ -1,0 +1,33 @@
+Issue with CalculatorReturnValue application'.
+
+
+
+I have managed fix the values that was not returning the correct result
+
+
+Case: Add 
+
+
+
+              from:        sum = number1 - number2;
+
+                to:        sum = number1 + number2;
+
+Case: Subtract 
+
+              from:        sum = number1 + number2;
+
+                to:        sum = number1 - number2;
+
+Multiply:
+
+              from:        sum = number1 / number2;
+
+                to:        sum = number1 * number2;
+
+Divide:
+
+              from:        sum = number1 * number2;
+
+                to:        sum = number1 / number2;
+
