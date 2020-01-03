@@ -16,12 +16,12 @@ namespace Activities
         {
             InitializeComponent();
         }
-
+//when you click on this button it will add to your calculation
         private void btnAdd_Click(object sender, EventArgs e)
         {
             txtAnswer.Text =  calculateAnswer("Add");
         }
-
+//when you click on this button it will multiply to your calculation
         private void btnMultiply_Click(object sender, EventArgs e)
         {
             txtAnswer.Text = calculateAnswer("Multiply");
@@ -31,12 +31,12 @@ namespace Activities
         {
             txtAnswer.Text = calculateAnswer("Modulus");
         }
-
+//when you click on this button it will subtract from your calculation
         private void btnSubtract_Click(object sender, EventArgs e)
         {
             txtAnswer.Text = calculateAnswer("Subtract");
         }
-
+//when you click on this button it will divide from your calculation
         private void btnDivide_Click(object sender, EventArgs e)
         {
             txtAnswer.Text = calculateAnswer("Divide");
