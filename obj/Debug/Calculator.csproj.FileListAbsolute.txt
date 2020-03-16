@@ -17,3 +17,13 @@ C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\bin\
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Activities.Properties.Resources.resources
 C:\Users\CAbood\Documents\Visual Studio 2015\Projects\CalculatorReturnValue\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\Andrew\Source\Repos\CalculatorReturnValue\bin\Debug\Activities.exe.config
+C:\Users\Andrew\Source\Repos\CalculatorReturnValue\bin\Debug\Activities.exe
+C:\Users\Andrew\Source\Repos\CalculatorReturnValue\bin\Debug\Activities.pdb
+C:\Users\Andrew\Source\Repos\CalculatorReturnValue\bin\Debug\itextsharp.xml
+C:\Users\Andrew\Source\Repos\CalculatorReturnValue\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Andrew\Source\Repos\CalculatorReturnValue\obj\Debug\Activities.Properties.Resources.resources
+C:\Users\Andrew\Source\Repos\CalculatorReturnValue\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Andrew\Source\Repos\CalculatorReturnValue\obj\Debug\Calculator.csproj.CopyComplete
+C:\Users\Andrew\Source\Repos\CalculatorReturnValue\obj\Debug\Activities.exe
+C:\Users\Andrew\Source\Repos\CalculatorReturnValue\obj\Debug\Activities.pdb
