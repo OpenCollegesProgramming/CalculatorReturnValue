@@ -50,22 +50,22 @@ namespace Activities
 
             switch (operation)
             {
-                case "Add":
+                case "Subtract":
                     {
                         sum = number1 - number2;
                         break;
                     }
-                case "Subtract":
+                case "Add":
                     {
                         sum = number1 + number2;
                         break;
                     }
-                case "Multiply":
+                case "Divide":
                     {
                         sum = number1 / number2;
                         break;
                     }
-                case "Divide":
+                case "Multiply":
                     {
                         sum = number1 * number2;
                         break;
