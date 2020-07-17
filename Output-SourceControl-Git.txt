@@ -1,0 +1,66 @@
+﻿Opening repositories:
+C:\Users\Windows\Desktop\JanesClothingDataAwareGITHubTEST
+POST git-upload-pack (387 bytes)
+Remote: Enumerating objects: 4, done.        
+Remote: Counting objects:  25% (1/4)        
+Remote: Counting objects:  50% (2/4)        
+Remote: Counting objects:  75% (3/4)        
+Remote: Counting objects: 100% (4/4)        
+Remote: Counting objects: 100% (4/4), done.        
+Remote: Compressing objects:  33% (1/3)        
+Remote: Compressing objects:  66% (2/3)        
+Remote: Compressing objects: 100% (3/3)        
+Remote: Compressing objects: 100% (3/3), done.        
+Remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0        
+From https://github.com/videogameconsoles/JanesClothingDataAwareGITHubTEST
+   5a4f790..c90a3ec  master     -> origin/master
+Updating 5a4f790..c90a3ec
+Pushing to https://github.com/videogameconsoles/JanesClothingDataAwareGITHubTEST.git
+To https://github.com/videogameconsoles/JanesClothingDataAwareGITHubTEST.git
+ = [up to date]      master -> master
+updating local tracking ref 'refs/remotes/origin/master'
+Everything up-to-date
+Cloning into 'C:\Users\Windows\Source\Repos\CalculatorReturnValue'...
+POST git-upload-pack (175 bytes)
+Remote: Enumerating objects: 41, done.        
+Remote: Total 41 (delta 0), reused 0 (delta 0), pack-reused 41        
+Opening repositories:
+C:\Users\Windows\Source\Repos\CalculatorReturnValue
+Fetching from origin
+From https://github.com/videogameconsoles/CalculatorReturnValue
+ = [up to date]      master     -> origin/master
+From https://github.com/videogameconsoles/CalculatorReturnValue
+ = [up to date]      master     -> origin/master
+Pushing to https://github.com/videogameconsoles/CalculatorReturnValue.git
+To https://github.com/videogameconsoles/CalculatorReturnValue.git
+ = [up to date]      master -> master
+updating local tracking ref 'refs/remotes/origin/master'
+Everything up-to-date
+Fetching from origin
+From https://github.com/videogameconsoles/CalculatorReturnValue
+ = [up to date]      master     -> origin/master
+From https://github.com/videogameconsoles/CalculatorReturnValue
+ = [up to date]      master     -> origin/master
+Pushing to https://github.com/videogameconsoles/CalculatorReturnValue.git
+To https://github.com/videogameconsoles/CalculatorReturnValue.git
+ = [up to date]      master -> master
+updating local tracking ref 'refs/remotes/origin/master'
+Everything up-to-date
+Pushing master
+Pushing to https://github.com/videogameconsoles/CalculatorReturnValue.git
+To https://github.com/videogameconsoles/CalculatorReturnValue.git
+ = [up to date]      master -> master
+updating local tracking ref 'refs/remotes/origin/master'
+Everything up-to-date
+From https://github.com/videogameconsoles/CalculatorReturnValue
+ = [up to date]      master     -> origin/master
+Fetching from origin
+From https://github.com/videogameconsoles/CalculatorReturnValue
+ = [up to date]      master     -> origin/master
+From https://github.com/videogameconsoles/CalculatorReturnValue
+ = [up to date]      master     -> origin/master
+Pushing to https://github.com/videogameconsoles/CalculatorReturnValue.git
+To https://github.com/videogameconsoles/CalculatorReturnValue.git
+ = [up to date]      master -> master
+updating local tracking ref 'refs/remotes/origin/master'
+Everything up-to-date
