@@ -67,7 +67,13 @@ namespace Activities
                     }
                 case "Divide":
                     {
-                        sum = number1 / number2;
+                        if (number2 == 0)
+                        {
+                            MessageBox.Show("Cannot Divide by Zero.");
+                            txtNumber2.Focus();
+                        }
+                        else
+                            sum = number1 / number2;
                         break;
                     }
                 case "Modulus":
