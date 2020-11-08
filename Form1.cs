@@ -52,21 +52,22 @@ namespace Activities
             {
                 case "Add":
                     {
-                        sum = number1 + number2;
+                        sum = number1 - number2;
                         break;
                     }
                 case "Subtract":
                     {
-                        sum = number1 - number2;
+                        sum = number1 + number2;
                         break;
                     }
                 case "Multiply":
                     {
-                        sum = number1 * number2;
+                        sum = number1 / number2;
                         break;
                     }
                 case "Divide":
                     {
+<<<<<<< HEAD
                         if (number2 == 0)
                         {
                             MessageBox.Show("Cannot Divide by Zero.");
@@ -74,6 +75,9 @@ namespace Activities
                         }
                         else
                             sum = number1 / number2;
+=======
+                        sum = number1 * number2;
+>>>>>>> parent of c580004... Update Form1.cs
                         break;
                     }
                 case "Modulus":
